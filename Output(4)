@@ -1,0 +1,93 @@
+Weight of blue marker : 2
+Weight of green marker : 4
+Weight of red marker : 3
+
+Edges associated with the maze is as follow,
+Total undirected edges (directed edges * 2) : 38
+1 --> 4    weight : 0
+2 --> 1    weight : 7
+3 --> 2    weight : 0
+3 --> 11    weight : 0
+4 --> 21    weight : 5
+5 --> 6    weight : 0
+6 --> 15    weight : 0
+7 --> 6    weight : 0
+7 --> 35    weight : 12
+11 --> 13    weight : 3
+11 --> 23    weight : 7
+30 --> 31    weight : 3
+31 --> 32    weight : 0
+31 --> 38    weight : 3
+35 --> 37    weight : 0
+36 --> 35    weight : 0
+36 --> 39    weight : 0
+37 --> 40    weight : 0
+39 --> 40    weight : 0
+
+The graph (Data structure) associated with the maze is as follows,
+Source --> [destination_1, edge_weight_1], [destination_2, edge_weight_2], ... ,[destination_n, edge_weight_n]
+1 --> [[4, 0], [2, 7]]
+2 --> [[1, 7], [3, 0]]
+3 --> [[2, 0], [11, 0]]
+4 --> [[1, 0], [21, 5]]
+5 --> [[6, 0]]
+6 --> [[5, 0], [15, 0], [7, 0]]
+7 --> [[6, 0], [35, 12]]
+8 --> []
+9 --> []
+10 --> []
+11 --> [[3, 0], [13, 3], [23, 7]]
+12 --> []
+13 --> [[11, 3]]
+14 --> []
+15 --> [[6, 0]]
+16 --> []
+17 --> []
+18 --> []
+19 --> []
+20 --> []
+21 --> [[4, 5]]
+22 --> []
+23 --> [[11, 7]]
+24 --> []
+25 --> []
+26 --> []
+27 --> []
+28 --> []
+29 --> []
+30 --> [[31, 3]]
+31 --> [[30, 3], [32, 0], [38, 3]]
+32 --> [[31, 0]]
+33 --> []
+34 --> []
+35 --> [[7, 12], [37, 0], [36, 0]]
+36 --> [[35, 0], [39, 0]]
+37 --> [[35, 0], [40, 0]]
+38 --> [[31, 3]]
+39 --> [[36, 0], [40, 0]]
+40 --> [[37, 0], [39, 0]]
+
+Markers ((y, x) coorinate of the centre) assocaited with the maze are as follow,
+Total markers : 18
+1 : (499,523)
+2 : (479,379)
+3 : (443,72)
+4 : (383,74)
+5 : (333,246)
+6 : (306,881)
+7 : (295,477)
+8 : (286,244)
+9 : (263,74)
+10 : (257,476)
+11 : (239,248)
+12 : (222,478)
+13 : (193,74)
+14 : (186,799)
+15 : (174,612)
+16 : (152,800)
+17 : (25,731)
+18 : (25,705)
+Total red markers : 10
+Total green markers : 4
+Total blue markers : 4
+
